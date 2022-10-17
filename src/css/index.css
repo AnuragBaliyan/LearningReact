@@ -1,16 +1,44 @@
-#index-div{
+*{
+    background-image: url(../images/background-image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#top-section{
+    position:relative;
+    padding-top: 20px;
+}
+
+#index-navbar{
+    float: right;
+}
+
+#links{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#links:hover{
+    font-size:30px;
+    background: transparent;
+}
+
+#index-div_1{
     text-align: center;
-    background-image: url(D:/Js/LearningReact/src/images/background-image-header.jpg);
 }
 
 #index-h1{
-    color: rgb(11, 10, 10);
-    font-family: Trebuchet MS;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    font-size: xx-large;
 }
 
 #index-h3{
-    color: rgb(42, 41, 41);
+    color: rgb(255, 252, 252);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
